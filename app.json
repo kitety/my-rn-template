@@ -3,7 +3,7 @@
     "name": "rn-uber-clone",
     "slug": "rn-uber-clone",
     "version": "1.0.0",
-
+    "newArchEnabled": true,
     "scheme": "rn-uber-clone",
     "web": {
       "bundler": "metro",
