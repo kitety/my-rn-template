@@ -1,13 +1,16 @@
 module.exports = {
   extends: ['expo', 'prettier'],
-  plugins: ['prettier', 'simple-import-sort', 'import'],
+  plugins: ['prettier', 'simple-import-sort', 'import', 'react-hooks'],
   parser: '@typescript-eslint/parser',
+  root: true,
   parserOptions: {
     project: './tsconfig.json',
     ecmaVersion: 2021,
     sourceType: 'module',
   },
   rules: {
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
     'simple-import-sort/imports': 'off',
     'simple-import-sort/exports': 'off',
     'import/first': 'error',

@@ -1,2 +1,6 @@
 /.expo
 node_modules
+babel.config.js
+.eslintrc.cjs
+prettier.config.js
+metro.config.js
